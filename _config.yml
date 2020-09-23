@@ -11,7 +11,7 @@ logo:
   desktop: ""
   desktop_height: "36px"
 footer:
-  copyright_text: '© 2020 Project Vani. Powered by Jekyll & [jekyll-serif-theme](https://github.com/zerostaticthemes/jekyll-serif-theme)'
+  copyright_text: '© 2020 Project Vani. Powered by Jekyll'
 
 seo:
   meta_og_title: ""
