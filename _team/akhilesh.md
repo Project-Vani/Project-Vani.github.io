@@ -5,6 +5,7 @@ draft: false
 image: "images/team/akhilesh.jpg"
 jobtitle: ""
 linkedinurl: "https://linkedin.com/akhilesh-kr"
+promoted: true
 weight: 1
 ---
 
