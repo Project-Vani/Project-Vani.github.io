@@ -2,7 +2,7 @@
 title: "Rutwik Phatak"
 date: 2020-09-24T10:47:58+10:00
 draft: false
-image: "images/team/rutwik.jpeg""
+image: "images/team/rutwik.jpeg"
 jobtitle: ""
 linkedinurl: ""
 promoted: true
