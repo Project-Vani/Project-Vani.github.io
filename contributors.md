@@ -1,0 +1,10 @@
+---
+title: Contributors
+layout: teams
+permalink: /contributors/
+intro_image:
+intro_image_absolute: true
+intro_image_hide_on_mobile: false
+---
+
+# Meet the Contributors
