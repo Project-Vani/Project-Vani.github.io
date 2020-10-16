@@ -5,4 +5,4 @@ featured: true
 weight: 7
 ---
 
-English Singpho Dictionary Portal.
+[English Singpho Dictionary Portal](https://dictionary.projectvani.org/eng-singpho/)
