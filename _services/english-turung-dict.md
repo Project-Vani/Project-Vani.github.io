@@ -5,4 +5,4 @@ featured: true
 weight: 4
 ---
 
-English Turung Dictionary Portal.
+[English Turung Dictionary Portal](dictionary.projectvani.org/eng-turung/)
