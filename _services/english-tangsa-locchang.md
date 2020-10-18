@@ -5,4 +5,4 @@ featured: true
 weight: 7
 ---
 
-English Tangsa Locchang Dictionary Portal.
+[English Tangsa Locchang Dictionary Portal](dictionary.projectvani.org/eng-tangsa-lochhang/)
