@@ -5,4 +5,4 @@ featured: true
 weight: 6
 ---
 
-English Tangsa Chamchang Dictionary Portal.
+[English Tangsa Chamchang Dictionary Portal](dictionary.projectvani.org/eng-tangsa-chamchang/)
