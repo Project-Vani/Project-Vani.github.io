@@ -5,4 +5,4 @@ featured: true
 weight: 1
 ---
 
-Nyishi English Dictionary Portal.
+[Nyishi English Dictionary Portal](dictionary.projectvani.org/nyishi-eng/)
