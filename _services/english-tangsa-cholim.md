@@ -5,4 +5,4 @@ featured: true
 weight: 5
 ---
 
-English Tangsa Cholim Dictionary Portal.
+[English Tangsa Cholim Dictionary Portal](dictionary.projectvani.org/eng-tangsa-cholim/)
