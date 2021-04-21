@@ -79,70 +79,47 @@
 </button>
   </div>
 </div>
-    <!-- 
-<div class="container pb-6 pt-6 pt-md-10 pb-md-10">
-    <div class="row justify-content-start">
-        <div class="col-12 col-md-8">
-            <div class="service service-single">
-                <h1 class="title">Contact</h1>
-                <div class="call">
-  <div class="call-box-top">
-    
-    
-    <div class="call-email"><strong>Email: </strong>
-      <a href="mailto:">
-        theprojectvani@gmail.com
-      </a>
-    </div>
-    
-  </div>
-    
-</div>
-
-                <div class="content mt-4">
-</div>
-            </div>
-        </div>
-    </div>
-</div> -->
-
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <!------ Include the above in your HEAD tag ---------->
 
 <div class="container contact-form">
-            <div class="contact-image">
-                <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact"/>
-            </div>
-            <form method="post">
-                <h3>Drop Us a Message</h3>
-               <div class="row">
-                    <div class="col-md-10 text-center">
-                        <div class="form-group">
-                            <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
-                        </div>
-                        <div class="form-group">
-                            <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
-                        </div>
-                        <div class="form-group">
-                            <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
-                        </div>
-                        
-                        <div class="form-group">
-                            <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
-                        </div>
-                        <div class="form-group">
-                            <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
-                        </div>
-                    </div>
-                    <!-- <div class="col-md-6">
-                        <div class="form-group">
-                            <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
-                        </div>
-                    </div> -->
+    <h1 class="Contacttitle text-center ">Contact US</h1>
+    <div class="contact-image">
+        <!-- <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact"/> -->
+        <a href="/"><img height="36px" alt="VANI" src="/images/logo/logo.jpg" /></a>
+    </div>
+    <form action="https://formsubmit.co/info@projectvani.org" method="POST" role="form">
+        <input type="hidden" name="_template" value="table">
+        <h3>Drop Us a Message</h3>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="form-group">
+                    <input type="text" name="FullName" class="form-control" placeholder="Your Name *" value="" required/>
                 </div>
-            </form>
+                <div class="form-group">
+                    <input type="email" name="Email" class="form-control" placeholder="Your Email *" value="" required/>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="PhoneNumber" class="form-control" placeholder="Your Phone Number *" value="" required/>
+                </div>
+
+                <div class="form-group">
+                    <input type="text" name="subject" class="form-control" placeholder="Subject *" value="" required/>
+                    <input type="hidden" name="_subject" value="New submission!">
+                </div>
+                
+                <div class="form-group">
+                    <textarea name="Message" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;" required></textarea>
+                </div>
+                <div class="form-group">
+                    <input type="submit"  class="btnContact" value="Send Message" />
+                </div>
+            </div>
+
+        </div>
+    </form>
 </div>
   </div>
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
