@@ -56,7 +56,6 @@ section .section-title {
 	padding: 3px 0;
 	margin-left:5px;
 	font-weight:700;
-    color: yellow !important;
 }
 #footer ul.quick-links li a i{
 	margin-right: 5px;
@@ -88,3 +87,6 @@ section .section-title {
     color: yellow !important;
 }
 
+ #footer ul.quick-links li a:hover {
+    color: yellow !important;
+}
