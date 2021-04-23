@@ -1044,6 +1044,8 @@ section .section-title { text-align: center; color: #007b5e; margin-bottom: 50px
 
 .team-summary-large .team-image img { width: 90px; }
 
+.team_name { font-size: medium; }
+
 .page-services-single .content > p:first-of-type { font-size: 1.6rem; line-height: 1.4; margin-bottom: 40px; font-weight: regular; color: #686868; }
 
 .contact-form { background: -webkit-linear-gradient(left, #0072ff, #00c6ff); margin-top: 10%; margin-bottom: 5%; width: 70%; }
