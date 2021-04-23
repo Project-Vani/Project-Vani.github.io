@@ -11,7 +11,7 @@ logo:
   desktop: "images/logo/logo.jpg"
   desktop_height: "36px"
 footer:
-  copyright_text: '© 2020 Project VANI. Powered by Jekyll'
+  copyright_text: '© 2021 Project VANI,ALL RIGHTS RESERVED. Powered by Jekyll'
 
 seo:
   meta_og_title: ""
