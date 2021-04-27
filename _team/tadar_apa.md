@@ -7,4 +7,5 @@ jobtitle: ""
 linkedinurl: ""
 promoted: false
 weight: 5
+gender: "male"
 ---
