@@ -9,13 +9,13 @@ bodyClass: page-contact
 <!------ Include the above in your HEAD tag ---------->
 
 <div class="container contact-form">
-    <h1 class="Contacttitle text-center ">Contact US</h1>
-    <div class="contact-image">
-        <!-- <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact"/> -->
-        <a href="{{site.baseurl}}/"><img height="{{ site.logo.desktop_height }}" alt="{{ site.title }}" src="{{ site.logo.desktop | relative_url }}" /></a>
-    </div>
+    
     <form action="https://formsubmit.co/info@projectvani.org" method="POST" role="form">
         <input type="hidden" name="_template" value="table">
+        <div class="contact-image">
+            <!-- <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact"/> -->
+            <a href="{{site.baseurl}}/"><img height="{{ site.logo.desktop_height }}" alt="{{ site.title }}" src="{{ site.logo.desktop | relative_url }}" /></a>
+        </div>
         <h3>Drop Us a Message</h3>
         <div class="row">
             <div class="col-md-12 text-center">
