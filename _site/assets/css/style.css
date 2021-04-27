@@ -789,6 +789,8 @@ section .section-title { text-align: center; color: #007b5e; margin-bottom: 50px
 
 #footer ul.quick-links li a:hover { color: yellow !important; }
 
+.quick { margin-left: 8%; }
+
 .sub-footer { background: black; color: #ffffff; padding-top: 15px; padding-bottom: 15px; }
 
 @media (min-width: 768px) { .sub-footer { padding-top: 10px; padding-bottom: 10px; } }
