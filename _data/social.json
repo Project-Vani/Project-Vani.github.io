@@ -8,5 +8,20 @@
     "name": "Twitter",
     "link": "",
     "image": "images/social/twitter.svg"
+  },
+  {
+    "name": "Facebook",
+    "link": "",
+    "image": "images/social/fb.svg"
+  },
+  {
+    "name": "Instagram",
+    "link": "",
+    "image": "images/social/insta.svg"
+  },
+  {
+    "name": "Linkedin",
+    "link": "",
+    "image": "images/social/linkedin.svg"
   }
 ]

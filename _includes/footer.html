@@ -1,19 +1,46 @@
-<div class="footer">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <div class="footer-inner">
-          <h3 class="footer-title">{{site.title}}</h3>
-          <ul>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<!-- Footer -->
+	<section id="footer">
+		<div class="container">
+			<div class="row text-center text-xs-center text-sm-left text-md-left">
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<h5>| About The Company</h5>
+          <div class="logo">
+            <a href="{{site.baseurl}}/"><img height="{{ site.logo.desktop_height }}" alt="{{ site.title }}" src="{{ site.logo.desktop | relative_url }}" /></a>
+          </div>
+          <div class="about">
+            <p><a href="https://projectvani.org/about/" class="vani" >Vernacular Archive of Northeast India - VANI</a> for short - is an initiative aimed at documentation, digitization and development of AI based tools for the vernacular languages of the Northeast India.</p>
+          </div>
+				</div>
+			
+				<div class="col-xs-12 col-sm-4 col-md-4 text-center">
+					<h5>| Quick links</h5>
+          <ul class="list-unstyled quick-links">
             {% assign footermenu = site.data.menus.footer | sort: 'weight'  %}
             {% for item in footermenu %}
             <li class="{% if item.url == page.url %}active{% endif %}">
-              <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
+              <a href="{{ item.url | relative_url }}"><i class="fa fa-angle-double-right"></i>{{ item.name }}</a>
             </li>
             {% endfor %}
           </ul>
-        </div>
+				</div>
+
+        <div class="col-xs-12 col-sm-4 col-md-4">
+					<h5>| Connect US</h5>
+					<ul class="list-unstyled list-inline social">
+            {% if site.data.social %}
+              {% include social.html %}
+            {% endif %}
+					</ul>
+				</div>
       </div>
-    </div>
-  </div>
-</div>
+        
+		</div>		
+	</div>
+</section>
+<!-- ./Footer -->
+

@@ -1,16 +1,23 @@
 <div class="sub-footer">
   <div class="container">
     <div class="row">
-      <div class="col-12">
-        <div class="sub-footer-inner">
-          {% if site.data.social %}
-            {% include social.html %}
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+					{% if site.footer.copyright_text %}
+            <div class="copyright">{{ site.footer.copyright_text }}</div>
           {% endif %}
-          {% if site.footer.copyright_text %}
-          <div class="copyright">{{ site.footer.copyright_text }}</div>
-          {% endif %}
-        </div>
-      </div>
     </div>
-  </div>
+				<hr>
+			</div>	
+    </div>
 </div>
+
+<!-- <div class="col-12">
+  <div class="sub-footer-inner"> -->
+    <!-- {% if site.data.social %}
+      {% include social.html %}
+    {% endif %} -->
+    <!-- {% if site.footer.copyright_text %}
+    <div class="copyright">{{ site.footer.copyright_text }}</div>
+    {% endif %}
+  </div>
+</div> -->
