@@ -24,8 +24,8 @@ bodyClass: page-team-list
     <div class="row">
         {% assign promoted_teams = site.team | where: "promoted", true | sort: "weight" %}
         <div class="section-title mb-4 pb-2">
-            <h4 class="title mb-4">Our Core Team</h4>
-            <p class="text-muted para-desc mx-auto mb-0">Vernacular Archive of Northeast India - VANI for short - is an initiative aimed at documentation, digitization and development of AI based tools for the vernacular languages of the Northeast India.VANI has a vision of rejuvenating vernacular languages with the aid of technology so that the richness of cultural diversity is cherished and humanity, at large, is benefitted.</p>
+            <h4 class="title mx-2  mb-4">Our Core Team</h4>
+            <p class="text-muted para-desc mx-2 mb-0">Vernacular Archive of Northeast India - VANI for short - is an initiative aimed at documentation, digitization and development of AI based tools for the vernacular languages of the Northeast India.VANI has a vision of rejuvenating vernacular languages with the aid of technology so that the richness of cultural diversity is cherished and humanity, at large, is benefitted.</p>
         </div>
         {% for team in promoted_teams %}
         <div class="col-12 col-md-6 mb-2">
@@ -50,20 +50,20 @@ bodyClass: page-team-list
     <div class="row pt-6 pb-6">
         {% assign teams = site.team | where: "promoted", false | sort: "weight"  %}
         <div class="section-title mb-4 pb-2">
-            <h4 class="title mb-4">Our Contributors</h4>
-            <p class="text-muted para-desc mx-auto mb-0">This project is a non-profit venture, powered by passion and enthusiasm of language lovers. For more details about the contributors</p>
+            <h4 class="title mx-2  mb-4">Our Contributors</h4>
+            <p class="text-muted para-desc  mx-2  mb-0">This project is a non-profit venture, powered by passion and enthusiasm of language lovers. For more details about the contributors</p>
         </div>
         {% for team in teams %}
         <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
             <div class="team text-center rounded p-3 py-4">
                 {% if team.image %}
                 <div class="team-image">
-                    <img alt="{{ team.title }}" class=" contributor_image " src="{{ team.image | relative_url }}" />
+                    <img alt="{{ team.title }}" class="rounded-circle contributor_image " src="{{ team.image | relative_url }}" />
                 </div>
                 {% elsif  team.gender=='male' %}
-                    <img src="https://bootdey.com/img/Content/avatar/avatar6.png" class="contributor_image  avatar avatar-medium shadow rounded-pill" alt="">
+                    <img src="https://bootdey.com/img/Content/avatar/avatar6.png" class="contributor_image  rounded-circle avatar avatar-medium shadow rounded-pill" alt="">
                 {% else %}
-                    <img src="https://bootdey.com/img/Content/avatar/avatar8.png" class=" contributor_image  avatar avatar-medium shadow rounded-pill" alt="">
+                    <img src="https://bootdey.com/img/Content/avatar/avatar8.png" class=" contributor_image rounded-circle avatar avatar-medium shadow rounded-pill" alt="">
                 {% endif %}
                 <div class="content mt-3">
                     <h6 class="title mb-0 team_name">{{ team.title }}</h6>
