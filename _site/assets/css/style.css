@@ -966,19 +966,15 @@ section .section-title { text-align: center; color: #007b5e; margin-bottom: 50px
 
 .intro-small { padding-top: 100px; padding-bottom: 30px; }
 
-.intro-image { width: 100%; height: auto; margin-top: -40px; }
+.homebg { width: 100%; }
 
-.intro-image-absolute { max-width: none; padding: 0; margin-bottom: 30px; }
+@media (min-width: 576px) { .homebg { width: 100%; } }
 
-@media (min-width: 768px) { .intro-image-absolute { position: absolute; bottom: -50px; left: -50px; width: 700px; } }
+@media (min-width: 768px) { .homebg { width: 160%; margin-left: -30%; margin-right: 15%; margin-top: -15%; height: 80%; } }
 
-@media (min-width: 992px) { .intro-image-absolute { bottom: -60px; left: -60px; width: 800px; } }
+@media (min-width: 992px) { .homebg { width: 125%; margin-left: 10%; margin-top: -15%; } }
 
-@media (min-width: 1300px) { .intro-image-absolute { bottom: -100px; left: -70px; width: 850px; } }
-
-.intro-image-hide-mobile { display: none; }
-
-@media (min-width: 768px) { .intro-image-hide-mobile { display: block; } }
+@media (min-width: 1300px) { .homebg { width: 150%; margin-top: -25%; margin-left: -5%; height: 110%; } }
 
 .strip { background: white; background-repeat: no-repeat; }
 
