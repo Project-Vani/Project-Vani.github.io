@@ -2,9 +2,9 @@
 layout: home
 title: VANI
 description: Project VANI
-intro_image: "images/illustrations/bg.svg"
-intro_image_absolute: false
-intro_image_hide_on_mobile: false
+intro_image: "images/illustrations/Vani-doogle.jpg"
+intro_image_absolute: true
+intro_image_hide_on_mobile: true
 ---
 
 # VANI - Vernacular Archive of Northeast India
