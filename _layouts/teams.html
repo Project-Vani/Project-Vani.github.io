@@ -68,6 +68,9 @@ bodyClass: page-team-list
                 <div class="content mt-3">
                     <h6 class="title mb-0 team_name">{{ team.title }}</h6>
                     <small class="text-muted">{{ team.jobtitle }}</small>
+                    {% if team.linkedinurl %}
+                    <a target="_blank" href="{{ team.linkedinurl }}">LinkedIn</a>
+                    {% endif %}
                 </div>
             </div>
         </div>  
