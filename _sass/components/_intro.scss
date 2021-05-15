@@ -89,7 +89,7 @@
   content: '';
   position: absolute;
   top: 0;
-  left: 67px;
+  left: 100px;
   height: 100%;
   width: 4px;
   background: #e9ecef;
@@ -109,7 +109,7 @@
 .vertical-timeline-element-icon {
   position: absolute;
   top: 0;
-  left: 60px
+  left: 90px
 }
 
 .vertical-timeline-element-icon .badge-dot-xl {
@@ -149,13 +149,14 @@
   text-transform: uppercase;
   margin: 0 0 .5rem;
   padding: 2px 0 0;
-  font-weight: bold
+  font-weight: bold;
+  margin-left: 8%;
 }
 
 .vertical-timeline-element-content .vertical-timeline-element-date {
   display: block;
   position: absolute;
-  left: -90px;
+  left: -100px;
   top: 0;
   padding-right: 10px;
   text-align: right;
@@ -169,3 +170,7 @@
   display: table;
   clear: both
 }
+
+// .date_width{
+//   width: 50%;
+// }
