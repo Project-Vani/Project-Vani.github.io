@@ -1,46 +1,48 @@
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<!------ Include the above in your HEAD tag ---------->
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css'>
+<link href='//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel='stylesheet'/>
+<!------  HEAD tag ---------->
 
 <!-- Footer -->
-	<section id="footer">
-		<div class="container">
-			<div class="row text-center text-xs-center text-sm-left text-md-left">
-				<div class="col-xs-12 col-sm-12 col-md-3">
-					<h5>| About The Company</h5>
+<footer id="footer" class="footer-1">
+  <div class="main-footer widgets-dark typo-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="widget subscribe no-box">
+          <h5 class="widget-title">| About The Company<span></span></h5>
           <div class="logo">
             <a href="{{site.baseurl}}/"><img height="{{ site.logo.desktop_height }}" alt="{{ site.title }}" src="{{ site.logo.desktop | relative_url }}" /></a>
           </div>
-          <div class="about">
-            <p><a href="https://projectvani.org/about/" class="vani" >Vernacular Archive of Northeast India - VANI</a> for short - is an initiative aimed at documentation, digitization and development of AI based tools for the vernacular languages of the Northeast India.</p>
+          <p><a href="https://projectvani.org/about/" class="vani" >Vernacular Archive of Northeast India - VANI</a> for short - is an initiative aimed at documentation, digitization and development of AI based tools for the vernacular languages of the Northeast India.</p>
           </div>
-				</div>
-			
-				<div class="col-xs-12 col-sm-12 col-md-3 quick">
-					<h5>| Quick links</h5>
-          <ul class="list-unstyled quick-links">
-            {% assign footermenu = site.data.menus.footer | sort: 'weight'  %}
-            {% for item in footermenu %}
-            <li class="{% if item.url == page.url %}active{% endif %}">
-              <a href="{{ item.url | relative_url }}"><i class="fa fa-angle-double-right"></i>{{ item.name }}</a>
-            </li>
-            {% endfor %}
-          </ul>
-				</div>
+        </div>
 
-        <div class="col-xs-12 col-sm-12 col-md-4">
-					<h5>| Connect US</h5>
-					<ul class="list-unstyled list-inline social">
-            {% if site.data.social %}
-              {% include social.html %}
-            {% endif %}
-					</ul>
-				</div>
-      </div>
-        
-		</div>		
-	</div>
-</section>
-<!-- ./Footer -->
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <div class="widget no-box">
+            <h5 class="widget-title">| Quick links<span></span></h5>
+            <ul class="thumbnail-widget ">
+              {% assign footermenu = site.data.menus.footer | sort: 'weight'  %}
+              {% for item in footermenu %}
+              <li>
+                <div class="thumb-content"><a href="{{ item.url | relative_url }}">&nbsp;{{ item.name }}</a></div> 
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
 
+        <div class="col-xs-12 col-sm-6 col-md-5">
+          <div class="widget no-box">
+            <h5 class="widget-title">| Connect US<span></span></h5>
+            <ul class="list-unstyled list-inline social">
+              {% if site.data.social %}
+                {% include social.html %}
+              {% endif %}
+            </ul>
+          </div>
+        </div>
+    </div>
+  </div>
+</footer>
+<!-- footer end -->
