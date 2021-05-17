@@ -6,7 +6,7 @@ layout: 'page'
 
 India is a country known for its unity in diversity. The NorthEastern states of India, commonly called the 'seven sisters', are home to more than 200 languages, many of which are shrinking for want of documentation and active users.
 
-**Vernacular Archive of Northeast India** - **VANI** for short - is an initiative aimed at documentation, digitization and development of AI based tools for the vernacular languages of the Northeast India.
+**Vernacular Archive of Northeast India** - **VANI** for short - is an initiative aimed at documentation, digitization and development of technology tools for the vernacular languages of the Northeast India.
 
 VANI has a vision of rejuvenating vernacular languages with the aid of technology so that the richness of cultural diversity is cherished and humanity, at large, is benefitted.
 
