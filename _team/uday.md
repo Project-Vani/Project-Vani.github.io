@@ -6,6 +6,6 @@ image: "images/team/uday.png"
 jobtitle: ""
 linkedinurl: "https://www.linkedin.com/in/uday-kiran-n-ab1874157/"
 promoted: false
-weight: 8
+weight: 9
 gender: "male"
 ---
