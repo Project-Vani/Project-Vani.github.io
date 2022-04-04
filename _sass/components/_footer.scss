@@ -3,7 +3,7 @@
           Footer 
 ====================== */
 #footer a {
-    color: #ffffff;
+    color: #000000;
     // text-decoration: none !important;
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
@@ -20,9 +20,13 @@
     color: yellow !important;
 }
 
+.footer-vani{
+  width: 10%;
+  height: 5%;
+}
 
 /* Main Footer */
-footer .main-footer{  padding:  60px 0;  background: #007b5e;}
+footer .main-footer{  padding:  60px 0;  background-color: #fff;}
 footer ul{  padding-left: 0;  list-style: none;}
 
 
@@ -34,8 +38,8 @@ footer ul{  padding-left: 0;  list-style: none;}
 .widget.no-box{ padding: 0; background-color: transparent;  margin-bottom: 40px;
   box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; -ms-box-shadow: none; -o-box-shadow: none;}
 .widget.subscribe p{  margin-bottom: 18px;}
-.widget li a{ color: #fff;}
-.widget li a:hover{ color: #aaa;text-decoration: none;}
+.widget li a{ color: rgb(0, 0, 0);}
+.widget li a:hover{ color: rgb(245, 112, 112);text-decoration: none;}
 .widget-title {margin-bottom: 20px;}
 .widget-title span {background: #839FAD none repeat scroll 0 0;display: block; height: 1px;margin-top: 25px;position: relative;width: 20%;}
 .widget-title span::after {background: inherit;content: "";height: inherit;    position: absolute;top: -4px;width: 50%;}
@@ -51,7 +55,7 @@ footer ul{  padding-left: 0;  list-style: none;}
 .typo-light p,
 .typo-light div,
 .typo-light span,
-.typo-light small{  color: #fff;}
+.typo-light small{  color: rgb(0, 0, 0);}
 
 
 .thumb-content ::before {

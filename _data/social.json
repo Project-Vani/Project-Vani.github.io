@@ -2,26 +2,21 @@
   {
     "name": "Github",
     "link": "https://github.com/Project-Vani/Project-Vani.github.io",
-    "image": "images/social/github.svg"
+    "image": "images/social/github.png"
   },
   {
     "name": "Twitter",
     "link": "",
-    "image": "images/social/twitter.svg"
+    "image": "images/social/twitter.png"
   },
   {
     "name": "Facebook",
     "link": "",
-    "image": "images/social/fb.svg"
-  },
-  {
-    "name": "Instagram",
-    "link": "",
-    "image": "images/social/insta.svg"
+    "image": "images/social/facebook.png"
   },
   {
     "name": "Linkedin",
     "link": "",
-    "image": "images/social/linkedin.svg"
+    "image": "images/social/linkedin.png"
   }
 ]

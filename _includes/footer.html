@@ -18,19 +18,7 @@
           </div>
         </div>
 
-        <div class="col-xs-12 col-sm-6 col-md-3">
-          <div class="widget no-box">
-            <h5 class="widget-title">| Quick links<span></span></h5>
-            <ul class="thumbnail-widget ">
-              {% assign footermenu = site.data.menus.footer | sort: 'weight'  %}
-              {% for item in footermenu %}
-              <li>
-                <div class="thumb-content"><a href="{{ item.url | relative_url }}">&nbsp;{{ item.name }}</a></div> 
-              </li>
-              {% endfor %}
-            </ul>
-          </div>
-        </div>
+
 
         <div class="col-xs-12 col-sm-6 col-md-5">
           <div class="widget no-box">
@@ -42,6 +30,7 @@
             </ul>
           </div>
         </div>
+
     </div>
   </div>
 </footer>

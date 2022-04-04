@@ -754,7 +754,7 @@ ul li, ol li { padding: 0; margin: 0; }
 .lock-scroll .header.header-absolute { position: static; }
 
 /*====================  Footer  ====================== */
-#footer a { color: #ffffff; background-color: transparent; -webkit-text-decoration-skip: objects; }
+#footer a { color: #000000; background-color: transparent; -webkit-text-decoration-skip: objects; }
 
 #footer a:hover { color: yellow !important; }
 
@@ -762,8 +762,10 @@ ul li, ol li { padding: 0; margin: 0; }
 
 #footer ul.quick-links li a:hover { color: yellow !important; }
 
+.footer-vani { width: 10%; height: 5%; }
+
 /* Main Footer */
-footer .main-footer { padding: 60px 0; background: #007b5e; }
+footer .main-footer { padding: 60px 0; background-color: #fff; }
 
 footer ul { padding-left: 0; list-style: none; }
 
@@ -776,9 +778,9 @@ footer ul { padding-left: 0; list-style: none; }
 
 .widget.subscribe p { margin-bottom: 18px; }
 
-.widget li a { color: #fff; }
+.widget li a { color: black; }
 
-.widget li a:hover { color: #aaa; text-decoration: none; }
+.widget li a:hover { color: #f57070; text-decoration: none; }
 
 .widget-title { margin-bottom: 20px; }
 
@@ -790,7 +792,7 @@ footer ul { padding-left: 0; list-style: none; }
 
 .widget .badge { float: right; background: #7f7f7f; }
 
-.typo-light h1, .typo-light h2, .typo-light h3, .typo-light h4, .typo-light h5, .typo-light h6, .typo-light p, .typo-light div, .typo-light span, .typo-light small { color: #fff; }
+.typo-light h1, .typo-light h2, .typo-light h3, .typo-light h4, .typo-light h5, .typo-light h6, .typo-light p, .typo-light div, .typo-light span, .typo-light small { color: black; }
 
 .thumb-content ::before { content: "\f190"; font-family: FontAwesome; font-style: normal; font-weight: normal; text-decoration: inherit; margin-left: 5px; color: #ffffff; }
 
@@ -1075,7 +1077,7 @@ footer ul { padding-left: 0; list-style: none; }
 
 .team-summary .team-content { margin-top: 20px; flex: 1 0 100%; }
 
-.team-summary-large { background-color: #fff6f8; padding: 30px; border-radius: 3px; }
+.team-summary-large { background-color: rgba(217, 245, 255, 0.699); padding: 30px; border-radius: 20px; }
 
 .team-summary-large .team-image { height: 90px; width: 90px; margin-right: 20px; border-radius: 50%; overflow: hidden; }
 
@@ -1095,7 +1097,7 @@ footer ul { padding-left: 0; list-style: none; }
 
 .page-services-single .content > p:first-of-type { font-size: 1.6rem; line-height: 1.4; margin-bottom: 40px; font-weight: regular; color: #686868; }
 
-.contact-form { background: #DCDCDC; margin-top: 5%; margin-bottom: 5%; width: 100%; }
+.contact-form { margin-top: 5%; margin-bottom: 5%; width: 100%; }
 
 .contact-form .form-control { border-radius: 1rem; }
 
@@ -1107,7 +1109,7 @@ footer ul { padding-left: 0; list-style: none; }
 
 .contact-form form .row { margin-bottom: -7%; }
 
-.contact-form h3 { margin-bottom: 8%; margin-top: -10%; text-align: center; color: #F0FFF0; }
+.contact-form h3 { margin-bottom: 8%; margin-top: -10%; text-align: center; color: #000000; }
 
 .contact-form .btnContact { width: 50%; border: none; border-radius: 1rem; padding: 1.5%; background: #dc3545; font-weight: 600; color: #fff; cursor: pointer; }
 
