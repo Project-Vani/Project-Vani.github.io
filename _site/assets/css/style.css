@@ -745,7 +745,7 @@ ul li, ol li { padding: 0; margin: 0; }
 
 .page .wrapper { flex: 1 0 0; }
 
-.header { color: #E5261F; background-color: #ffffff; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #fff6f8; padding: 10px 0px; }
+.header { color: #E5261F; background: linear-gradient(#ffeef2, #fff); display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #fff6f8; padding: 10px 0px; }
 
 .header .container { display: flex; justify-content: space-between; align-items: center; }
 
@@ -765,7 +765,7 @@ ul li, ol li { padding: 0; margin: 0; }
 .footer-vani { width: 10%; height: 5%; }
 
 /* Main Footer */
-footer .main-footer { padding: 60px 0; background-color: #fff; }
+footer .main-footer { padding: 60px 0; }
 
 footer ul { padding-left: 0; list-style: none; }
 
@@ -1063,6 +1063,16 @@ footer ul { padding-left: 0; list-style: none; }
 
 .social a:hover { opacity: 0.8; }
 
+.homebg { width: 100%; border-radius: 20px; }
+
+@media (min-width: 576px) { .homebg { width: 100%; } }
+
+@media (min-width: 768px) { .homebg { width: 145%; margin-left: -30%; margin-right: 25%; margin-top: -15%; height: 80%; } }
+
+@media (min-width: 992px) { .homebg { width: 105%; margin-left: 5%; margin-top: -15%; height: 110%; } }
+
+@media (min-width: 1300px) { .homebg { width: 135%; margin-top: -25%; margin-left: -5%; height: 120%; } }
+
 .team-summary { display: flex; flex-wrap: wrap; flex-direction: row; }
 
 .team-summary .team-image { height: 60px; width: 60px; margin-right: 10px; border-radius: 50%; overflow: hidden; }
@@ -1077,7 +1087,7 @@ footer ul { padding-left: 0; list-style: none; }
 
 .team-summary .team-content { margin-top: 20px; flex: 1 0 100%; }
 
-.team-summary-large { background-color: rgba(217, 245, 255, 0.699); padding: 30px; border-radius: 20px; }
+.team-summary-large { background: linear-gradient(#fff6f8, #fff); padding: 30px; border-radius: 20px; }
 
 .team-summary-large .team-image { height: 90px; width: 90px; margin-right: 20px; border-radius: 50%; overflow: hidden; }
 
@@ -1116,6 +1126,60 @@ footer ul { padding-left: 0; list-style: none; }
 .btnContactSubmit { width: 50%; border-radius: 1rem; padding: 1.5%; color: #fff; background-color: #0062cc; border: none; cursor: pointer; }
 
 .Contacttitle { margin-bottom: 50px; }
+
+h2 { color: #0a4870; font-weight: 500; }
+
+ul { display: flex; flex-wrap: wrap; list-style: none; padding: 0; }
+
+ul .booking-card { position: relative; width: 300px; display: flex; flex: 0 0 300px; flex-direction: column; margin: 20px; margin-bottom: 30px; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; overflow: hidden; background-position: center center; background-size: cover; text-align: center; color: #0a4870; transition: .3s; }
+
+ul .booking-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(10, 72, 112, 0); transition: .3s; }
+
+ul .booking-card .book-container { height: 200px; }
+
+ul .booking-card .book-container .content { position: relative; opacity: 0; display: flex; align-items: center; justify-content: center; height: 100%; width: 100%; transform: translateY(-200px); transition: .3s; }
+
+ul .booking-card .book-container .content .btn { border: 3px solid white; padding: 10px 15px; background: none; text-transform: uppercase; font-weight: bold; font-size: 1.3em; color: white; cursor: pointer; transition: .3s; }
+
+ul .booking-card .book-container .content .btn:hover { background: white; border: 0px solid white; color: #0a4870; }
+
+ul .booking-card .informations-container { flex: 1 0 auto; padding: 20px; background: #f0f0f0; transform: translateY(206px); transition: .3s; }
+
+ul .booking-card .informations-container .title { position: relative; padding-bottom: 20px; margin-bottom: 90px; font-weight: bold; font-size: 1.2em; align-content: center; }
+
+ul .booking-card .informations-container .title::after { content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 3px; width: 50px; margin: auto; background: #0a4870; }
+
+ul .booking-card .informations-container .price { display: flex; align-items: center; justify-content: center; margin-top: 10px; }
+
+ul .booking-card .informations-container .price .icon { margin-right: 10px; }
+
+ul .booking-card .informations-container .more-information { opacity: 0; transition: .3s; }
+
+ul .booking-card .informations-container .more-information .info-and-date-container { display: flex; }
+
+ul .booking-card .informations-container .more-information .info-and-date-container .box { flex: 1 0; padding: 15px; margin-top: 20px; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; background: white; font-weight: bold; font-size: 0.9em; }
+
+ul .booking-card .informations-container .more-information .info-and-date-container .box .icon { margin-bottom: 5px; }
+
+ul .booking-card .informations-container .more-information .info-and-date-container .box.info { color: #ec992c; margin-right: 10px; }
+
+ul .booking-card .informations-container .more-information .disclaimer { margin-top: 20px; font-size: 0.8em; color: #7d7d7d; }
+
+ul .booking-card:hover::before { background: rgba(10, 72, 112, 0.6); }
+
+ul .booking-card:hover .book-container .content { opacity: 1; transform: translateY(0px); }
+
+ul .booking-card:hover .informations-container { transform: translateY(0px); }
+
+ul .booking-card:hover .informations-container .more-information { opacity: 1; }
+
+@media (max-width: 768px) { ul .booking-card::before { background: rgba(10, 72, 112, 0.6); } ul .booking-card .book-container .content { opacity: 1; transform: translateY(0px); } ul .booking-card .informations-container { transform: translateY(0px); } ul .booking-card .informations-container .more-information { opacity: 1; } }
+
+.credits { display: table; background: #0a4870; color: white; line-height: 25px; margin: 10px auto; padding: 20px; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; text-align: center; }
+
+.credits a { color: #e3ebf1; }
+
+h1 { margin: 10px 20px; }
 
 body { font-size: 16px; line-height: 1.2; font-family: Helvetica, Arial, sans-serif, -apple-system; }
 

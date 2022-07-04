@@ -8,12 +8,12 @@ main:
   - name: "About"
     url: "/about/"
     weight: 4
-  - name: "Tools"
-    url: "/tools/"
-    weight: 5
+  # - name: "Tools"
+  #   url: "/tools/"
+  #   weight: 5
   - name: "Contact"
     url: "/contact/"
-    weight: 6
+    weight: 5
 
 footer:
   - name: "Our Work"

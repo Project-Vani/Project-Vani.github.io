@@ -7,8 +7,8 @@ google_analytics_id: null
 homepage:
   show_call_box: true
 logo:
-  mobile: "images/logo/logo.jpg"
-  desktop: "images/logo/logo.jpg"
+  mobile: "images/logo/bg-rmv-logo.png"
+  desktop: "images/logo/bg-rmv-logo.png"
   desktop_height: "36px"
 footer:
   copyright_text: '© 2021 Project VANI,ALL RIGHTS RESERVED. Powered by Jekyll'
@@ -30,9 +30,9 @@ collections:
   team:
     output: true
     permalink: /team/:path/
-  tools:
-    output: true
-    permalink: /tools/:path/
+  # tools:
+  #   output: true
+  #   permalink: /tools/:path/
 
 defaults:
   - scope:
