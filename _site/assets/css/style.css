@@ -1073,6 +1073,12 @@ footer ul { padding-left: 0; list-style: none; }
 
 @media (min-width: 1300px) { .homebg { width: 135%; margin-top: -25%; margin-left: -5%; height: 120%; } }
 
+.call { position: relative; overflow: hidden; background-color: #fff6f8; border-radius: 4px; width: 100%; display: flex; align-items: center; flex-direction: row; flex-wrap: wrap; z-index: 2; }
+
+@media (min-width: 576px) { .call { align-items: center; flex-direction: row; flex-wrap: wrap; } }
+
+.project-btn { padding-bottom: 10%; }
+
 .team-summary { display: flex; flex-wrap: wrap; flex-direction: row; }
 
 .team-summary .team-image { height: 60px; width: 60px; margin-right: 10px; border-radius: 50%; overflow: hidden; }
@@ -1143,7 +1149,7 @@ ul .booking-card .book-container .content .btn { border: 3px solid white; paddin
 
 ul .booking-card .book-container .content .btn:hover { background: white; border: 0px solid white; color: #0a4870; }
 
-ul .booking-card .informations-container { flex: 1 0 auto; padding: 20px; background: #f0f0f0; transform: translateY(206px); transition: .3s; }
+ul .booking-card .informations-container { flex: 1 0 auto; padding: 20px; background: #f0f0f0; transform: translateY(206px); transition: .3s; align-content: center; }
 
 ul .booking-card .informations-container .title { position: relative; padding-bottom: 20px; margin-bottom: 90px; font-weight: bold; font-size: 1.2em; align-content: center; }
 
